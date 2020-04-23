@@ -1,0 +1,13 @@
+print("would you like continue?")
+answer = input()
+# print(answer)
+
+value = answer
+# value = 'Yes'
+
+if value == 'No':
+    print ("Exit")
+elif value == 'Yes':
+    print ("Continuing...")
+else:
+    print ("please try again and respond with yes or no")
