@@ -1,0 +1,10 @@
+print("Qué día es hoy?")
+today_day = input()
+print("Calorias del desayuno?")
+breakfast_calories = int(input())
+print("Calorias del Almuerzo?")
+lunch_calories = int(input())
+print("Calorias de la cena?")
+dinner_calories = int(input())
+total_calories = breakfast_calories + lunch_calories + dinner_calories
+print("El total de calorias de hoy " + today_day + " fue " + str(total_calories))
