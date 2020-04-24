@@ -1,0 +1,50 @@
+first_value = '  FIRST challenge         '
+second_value = '-  second challenge  -'
+third_value = 'tH IR D-C HALLE NGE'
+
+fourth_value = 'fourth'
+fifth_value = 'fifth'
+sixth_value = 'sixth'
+
+# First challenge
+first_value = first_value.title()
+# first_value = first_value.replace(' ', '')
+print(first_value)
+# print(f'{first_value:^25}')
+
+# value = first_value
+# print(f'.{value:-^25}.')
+
+# Second challenge
+second_value = second_value.replace('-', '')
+
+second_value = second_value.capitalize()
+
+# second_value = (second_value.capitalize())
+# second_value = second_value.replace(' ', '')
+print(second_value)
+
+# Third challenge
+
+# third_value = third_value.replace('-', ' ')
+third_value = 'third challenge'
+# third_value = third_value.lstrip()
+# print(''+third_value.strip()+'')
+# third_value = third_value.replace(' ', '')
+
+third_value = third_value.capitalize()
+print(f'{third_value:>30}')
+
+# print(first_value)
+# print(second_value)
+# print(third_value)
+
+# Fourth challenge - use only the print() function (no f-strings)
+print(fourth_value, fifth_value, sixth_value, sep='#', end='!' +'\n')
+
+# Fifth challenge - use only a single print() function.  Create tabs and new lines using f-strings.
+
+# value = fourth_value
+print(f'{fourth_value:^24}')
+print(f'{fifth_value:^24}')
+print(f'{sixth_value:^24}')
