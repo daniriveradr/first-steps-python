@@ -1,0 +1,21 @@
+print("Hola, bienvenido a nuestro convertidor de Fahrenheit a Celsius")
+value_far = input('Fahrenheit: ')
+
+if value_far.isnumeric() == False:
+    print('El valor tiene que ser numerico.')
+    exit()
+
+else:
+    print(value_far + "°F")
+
+value_far = int(value_far)
+celsius = (value_far - 32) * 5 / 9
+celsius = round(celsius, 2)
+
+print("La temperatura en °C es: " + str(celsius))
+
+
+
+
+
+
